@@ -73,3 +73,16 @@ http://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
 ```
 nicer style (fluid) than hamcrest.
 
+## Coverage
+I found that jacoco works great with java8.
+
+Add the following to build.gradle.
+
+```
+    apply plugin: 'jacoco'
+    jacoco {
+        toolVersion = '0.7.1.201405082137'
+    }
+```
+The version number is the stupid long id.
+
