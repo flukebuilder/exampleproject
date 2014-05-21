@@ -1,4 +1,4 @@
 clean:
-	gradle clean
+	./gradlew clean
 cover:
-	gradle clean build jacocoTestReport
+	./gradlew clean build jacocoTestReport
