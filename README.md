@@ -58,4 +58,18 @@ Edit build.gradle and add the lines:
 ### Java Style
 Use the google java style: http://google-styleguide.googlecode.com/svn/trunk/javaguide.html
 
+### Testing
+Use junit4 with hamcrest and mockito.
+```
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.hamcrest:hamcrest-all:1.3'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+```
+
+AssertJ (fork of fest) also looks good for assertions.
+http://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
+```
+   testCompile 'org.assertj:assertj-core:1.5.0'
+```
+nicer style (fluid) than hamcrest.
 
