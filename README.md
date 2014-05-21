@@ -55,4 +55,7 @@ Edit build.gradle and add the lines:
   targetCompatibility=1.8
 ```
 
+### Java Style
+Use the google java style: http://google-styleguide.googlecode.com/svn/trunk/javaguide.html
+
 
